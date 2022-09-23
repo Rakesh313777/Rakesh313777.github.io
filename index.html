@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 </head>
 
 <body>
@@ -169,7 +171,7 @@
 
 
     <div id="statistics">
-        <h1>statistics</h1>
+        <h1>Statistics</h1>
         <div id="statistics1">
             <div class="st">
                 <h1 class="st1">1200+</h1>
@@ -200,16 +202,15 @@
 
         </div>
 
-
-
     </div>
 
-
-
-
-
-
-
+    <!-- Prepare a container for your calendar. -->
+    <div id="gitcall">
+        <div class="calendar">
+            <!-- Loading stuff -->
+            Loading the data just for you.
+        </div>
+    </div>
 
 
 
@@ -221,12 +222,12 @@
             <div>
                 <img src="https://sguru.org/wp-content/uploads/2018/02/linkedin-png-linkedin-icon-1600.png">
                 <h5><a href="https://www.linkedin.com/in/rakesh-chirumalla-3729241b0/" target="_blank">Linkedin</a></h5>
-                
+
             </div>
 
             <div>
                 <img
-                     src="https://th.bing.com/th/id/R.c0c835fb3100c12defb52614ccd5145c?rik=H3wpW2cWBhjuRg&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fdownload_258190.png&ehk=ywfFxgfyM2RBbKdCcTyMdxUjyjf7wr%2fp%2bBjWVDg7rKc%3d&risl=&pid=ImgRaw&r=0">
+                    src="https://th.bing.com/th/id/R.c0c835fb3100c12defb52614ccd5145c?rik=H3wpW2cWBhjuRg&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fdownload_258190.png&ehk=ywfFxgfyM2RBbKdCcTyMdxUjyjf7wr%2fp%2bBjWVDg7rKc%3d&risl=&pid=ImgRaw&r=0">
                 <h5><a href="https://github.com/Rakesh313777" target="_blank">Github</a></h5>
             </div>
 
@@ -248,3 +249,22 @@
 </body>
 
 </html>
+
+
+<!-- Include the library. -->
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
+<script>
+    GitHubCalendar(".calendar", "Rakesh313777");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "Rakesh313777", { responsive: true });
+
+    // Use a proxy
+    GitHubCalendar(".calendar", "Rakesh313777", {
+        proxy(username) {
+            return fetch(`https://your-proxy.com/github?user=${username}`)
+        }
+    }).then(r => r.text())
+</script>
