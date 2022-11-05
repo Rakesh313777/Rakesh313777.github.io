@@ -381,11 +381,15 @@ a:hover {
 }
 #gitcall {
 
-    width: 80%;
+    width: 70%;
     border-style: solid;
     border-color: aliceblue;
     margin: auto;
     margin-bottom: 150px;
+}
+
+svg.js-calendar-graph-svg {
+    width: 80%;
 }
 
 #contacthead {
@@ -1242,8 +1246,8 @@ a:hover {
     }
 
     svg.js-calendar-graph-svg {
-        width: 98%;
-        margin: auto;
+        width: 90%;
+        
     }
 
     #contacthead {
