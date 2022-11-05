@@ -373,6 +373,12 @@ a:hover {
 
 }
 
+.calhead{
+    text-align: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+    color: aliceblue;
+}
 #gitcall {
 
     width: 80%;
@@ -809,6 +815,13 @@ a:hover {
 
     }
 
+    .calhead{
+        text-align: center;
+        text-decoration: underline;
+        font-family: sans-serif;
+        color: aliceblue;
+    }
+
     #gitcall {
 
         width: 80%;
@@ -1207,6 +1220,16 @@ a:hover {
         margin: auto;
 
 
+    }
+
+    .calhead{
+        align-items: center;
+        text-align: center;
+        text-decoration: underline;
+        font-family: sans-serif;
+        color: aliceblue;
+        margin-left: 160px;
+        
     }
 
     #gitcall {
