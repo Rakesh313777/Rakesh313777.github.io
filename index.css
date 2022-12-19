@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: rgb(117, 191, 244);
+    background-color: rgb(103, 179, 246);
     font-family: sans-serif;
     position: fixed;
     margin: auto;
@@ -338,18 +338,6 @@ a:hover {
 
 }
 
-#statistics1 {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(1, auto);
-    gap: 10px;
-    text-align: center;
-    font-family: sans-serif;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: auto;
-
-}
 
 #statistics>h1 {
     text-align: center;
@@ -359,19 +347,11 @@ a:hover {
 
 }
 
-.st1 {
-    height: 32%;
-    width: 50%;
-    padding-top: 40px;
-    border-style: solid;
-    border-width: 10px;
-    border-radius: 200px;
-    background-color: aliceblue;
-    border-color: rgb(112, 112, 239);
-    margin: auto;
-
-
+#statistics>h1+div{
+    text-align: center;
+    align-items: center;
 }
+
 
 .calhead{
     text-align: center;
@@ -397,12 +377,12 @@ svg.js-calendar-graph-svg {
     text-align: center;
     font-family: sans-serif;
     color: black;
-    background-color: rgb(130, 193, 248);
+    background-color: rgb(103, 179, 246);
     width: 100%;
-    height: 200px;
+    height: 350px;
     line-height: 10px;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 10px;
 
 }
@@ -454,7 +434,7 @@ svg.js-calendar-graph-svg {
         display: flex;
         justify-content: space-between;
         width: 100%;
-        background-color: rgb(117, 191, 244);
+        background-color: rgb(103, 179, 246);
         font-family: sans-serif;
         position: fixed;
         margin: auto;
@@ -784,18 +764,6 @@ svg.js-calendar-graph-svg {
 
     }
 
-    #statistics1 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(8, auto);
-        gap: 20px;
-        text-align: center;
-        font-family: sans-serif;
-        flex-wrap: wrap;
-        width: 100%;
-        margin: auto;
-
-    }
 
     #statistics>h1 {
         text-align: center;
@@ -805,19 +773,11 @@ svg.js-calendar-graph-svg {
 
     }
 
-    .st1 {
-        height: 36%;
-        width: 40%;
-        padding-top: 40px;
-        border-style: solid;
-        border-width: 10px;
-        border-radius: 200px;
-        background-color: aliceblue;
-        border-color: rgb(112, 112, 239);
-        margin: auto;
-
-
+    #statistics>h1+div{
+        text-align: center;
+        align-items: center;
     }
+
 
     .calhead{
         text-align: center;
@@ -856,7 +816,7 @@ svg.js-calendar-graph-svg {
     #navbar {
         display: flex;
         justify-content: space-between;
-        background-color: rgb(117, 191, 244);
+        background-color: rgb(103, 179, 246);
         font-family: sans-serif;
         position: fixed;
         width: 100%;
@@ -1184,25 +1144,12 @@ svg.js-calendar-graph-svg {
     #statistics {
 
         width: 140%;
-        /* background-color: rgb(144, 201, 241); */
         margin: auto;
         padding-top: 100px;
         padding-bottom: 100px;
 
     }
 
-    #statistics1 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(8, auto);
-        gap: 20px;
-        text-align: center;
-        font-family: sans-serif;
-        flex-wrap: wrap;
-        width: 100%;
-        margin: auto;
-
-    }
 
     #statistics>h1 {
         text-align: center;
@@ -1212,18 +1159,9 @@ svg.js-calendar-graph-svg {
 
     }
 
-    .st1 {
-        height: 36%;
-        width: 40%;
-        padding-top: 40px;
-        border-style: solid;
-        border-width: 10px;
-        border-radius: 200px;
-        background-color: aliceblue;
-        border-color: rgb(112, 112, 239);
-        margin: auto;
-
-
+    #statistics>h1+div{
+        text-align: center;
+        align-items: center;
     }
 
     .calhead{
@@ -1255,12 +1193,12 @@ svg.js-calendar-graph-svg {
         text-align: center;
         font-family: sans-serif;
         color: black;
-        background-color: rgb(130, 193, 248);
+        background-color: rgb(103, 179, 246);
         width: 140%;
-        height: 200px;
+        height: 300px;
         line-height: 10px;
         margin: auto;
-        padding-top: 20px;
+        padding-top: 40px;
         padding-bottom: 10px;
 
     }
