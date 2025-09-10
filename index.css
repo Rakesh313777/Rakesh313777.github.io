@@ -167,8 +167,8 @@ a:hover {
 }
 
 #tech>div:hover {
-   /* transform: translate(0px,-20px); */
-   transform: scale(0.75);
+    /* transform: translate(0px,-20px); */
+    transform: scale(0.75);
     cursor: pointer;
     color: white;
     background: orange;
@@ -236,7 +236,7 @@ a:hover {
 }
 
 #skill1>div:hover {
-    transform: translate(0px,-30px);
+    transform: translate(0px, -30px);
     cursor: pointer;
     background-color: orange;
 }
@@ -664,7 +664,7 @@ svg.js-calendar-graph-svg {
     }
 
     #skill1>div:hover {
-        transform: translate(0px,-30px);
+        transform: translate(0px, -30px);
         cursor: pointer;
         background-color: orange;
     }
@@ -1054,7 +1054,7 @@ svg.js-calendar-graph-svg {
     }
 
     #skill1>div:hover {
-        transform: translate(0px,-30px);
+        transform: translate(0px, -30px);
         cursor: pointer;
         background-color: orange;
     }
